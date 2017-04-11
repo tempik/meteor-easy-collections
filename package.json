@@ -1,0 +1,34 @@
+{
+  "name": "meteor-easy-collections",
+  "version": "0.5.8",
+  "description": "This package provides interface to create MongoDB colelctions objects",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "local": "nodemon --watch ./src --exec babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tempik/meteor-easy-collections.git"
+  },
+  "keywords": [
+    "meteor",
+    "collection",
+    "mongodb"
+  ],
+  "author": "Ivan Ablogin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tempik/meteor-easy-collections/issues"
+  },
+  "homepage": "https://github.com/tempik/meteor-easy-collections#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.24.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {}
+}
