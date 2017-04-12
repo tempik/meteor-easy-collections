@@ -1,6 +1,6 @@
 {
   "name": "meteor-easy-collections",
-  "version": "0.5.8",
+  "version": "0.6.1",
   "description": "This package provides interface to create MongoDB colelctions objects",
   "main": "index.js",
   "scripts": {

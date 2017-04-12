@@ -3,17 +3,14 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
-var _mongo = require('meteor/mongo');
-
 var collections = {};
 
 var getCollection = function getCollection(name) {
   if (!name) return null;
+  var Mongo = Package.mongo.Mongo;
   if (typeof collections[name] === 'undefined') {
-    collections[name] = new _mongo.Mongo.Collection(name);
+    collections[name] = new Mongo.Collection(name);
   }
-  // console.log(Object.keys(collections))
   return collections[name];
 };
 
